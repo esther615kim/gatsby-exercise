@@ -2,9 +2,9 @@ import React from "react"
 import { Layout } from "../components/layout"
 
 export default function Home() {
-  return<>
+  return <Layout>
   <section>
-    <Layout/>
+    <h3>home page</h3>
   </section>
-  </> 
+  </Layout>
 }
