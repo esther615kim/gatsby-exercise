@@ -1,7 +1,7 @@
 ---
 title: Kenya AA
-stack: HTML & CSS
-slug: cofee-type
+type: arabica
+slug: kenya-aa
 ---
 
 ## KENYA AA

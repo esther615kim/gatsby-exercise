@@ -5,16 +5,12 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
   plugins: [
+    // transform markdown syntax to html
     'gatsby-transformer-remark',
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `notes`,
-        path: `${__dirname}/src/notes/`,
-      },
-    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -24,7 +20,7 @@ module.exports = {
     },
   ],
   siteMetadata:{
-    title:'gatsby project',
-    description:'web dev blog',
+    title:'my-coffee-note',
+    description:'coffee blog',
   }
 }

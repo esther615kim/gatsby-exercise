@@ -8,3 +8,7 @@ export default function Home() {
   </section>
   </Layout>
 }
+
+//export page query
+// export const query = graphql`
+// `
